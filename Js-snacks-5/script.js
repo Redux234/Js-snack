@@ -13,8 +13,14 @@ let numero4 = parseInt(numeroinserito4)
 let numero5 = parseInt(numeroinserito5)
 let numero6= parseInt(numeroinserito6)
 
-if((numero1 || numero2)%2=0);{
-console.log("sus")
+let arraynumeri = [numero1, numero2, numero3, numero4, numero5, numero6]
+
+for(let i=0; i<=arraynumeri.length; i++){
+
+    let numeridacomparare = arraynumeri[i]
+if(numeridacomparare%2==0){
+
 }else{
-    console.log("dispari")
+    console.log("dispari " + numeridacomparare)
 }
+}   
