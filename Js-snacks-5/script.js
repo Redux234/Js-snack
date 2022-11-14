@@ -15,7 +15,7 @@ let numero6= parseInt(numeroinserito6)
 
 let arraynumeri = [numero1, numero2, numero3, numero4, numero5, numero6]
 
-for(let i=0; i<=arraynumeri.length; i++){
+for(let i=0; i<arraynumeri.length; i++){
 
     let numeridacomparare = arraynumeri[i]
 if(numeridacomparare%2==0){
