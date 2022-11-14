@@ -1,4 +1,4 @@
-let numeridispariinseriti = []
+
 let numeroinserito1 = prompt("Inserire un numero")
 let numeroinserito2 = prompt("Inserire un numero")
 let numeroinserito3 = prompt("Inserire un numero")
@@ -13,9 +13,8 @@ let numero4 = parseInt(numeroinserito4)
 let numero5 = parseInt(numeroinserito5)
 let numero6= parseInt(numeroinserito6)
 
-if((((numero1||numero2||numero3||numero4||numero5||numero6)%2)=0)){
-
+if((numero1 || numero2)%2=0);{
+console.log("sus")
 }else{
-    
+    console.log("dispari")
 }
-
