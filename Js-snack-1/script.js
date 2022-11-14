@@ -8,7 +8,9 @@ if(isNaN(numero1 && numero2)){
     console.log("Non hai inserito un numero")
 }else if(numero1<numero2){
     console.log("Il primo numero è minore del secondo")
-}else {
+}else if(numero1==numero2){
+    console.log("I numeri sono uguali")
+}else{
     console.log("Il primo numero è maggiore del secondo")
 }
 
