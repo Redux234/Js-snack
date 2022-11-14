@@ -20,8 +20,16 @@ let numeroinserito8 = parseInt(numero8)
 let numeroinserito9 = parseInt(numero9)
 let numeroinserito10 = parseInt(numero10)
 
+
+
 if(isNaN(numeroinserito1&&numeroinserito2&&numeroinserito3&&numeroinserito4&&numeroinserito5&&numeroinserito6&&numeroinserito7&&numeroinserito8&&numeroinserito9&&numeroinserito10)){
     console.log("non hai inserito un numero in una delle richieste")
 }else{
     console.log("La somma dei tuoi numeri è " + (numeroinserito1 + numeroinserito2 + numeroinserito3 + numeroinserito4 + numeroinserito5 + numeroinserito6 + numeroinserito7 + numeroinserito8 + numeroinserito9 + numeroinserito10))
+    let maggiore = Math.max(numeroinserito1, numeroinserito2, numeroinserito3, numeroinserito4, numeroinserito5, numeroinserito6, numeroinserito7, numeroinserito8,numeroinserito9,numeroinserito10)
+    console.log("Il numero più grande è " + maggiore)
+    let minore = Math.min(numeroinserito1, numeroinserito2, numeroinserito3, numeroinserito4, numeroinserito5, numeroinserito6, numeroinserito7, numeroinserito8,numeroinserito9,numeroinserito10)
+    console.log("Il numero più piccolo è " + minore)
+    let media = ((numeroinserito1 + numeroinserito2 + numeroinserito3 + numeroinserito4 + numeroinserito5 + numeroinserito6 + numeroinserito7 + numeroinserito8 + numeroinserito9 + numeroinserito10)/10)
+    console.log("La media dei tuoi numeri è "+ media)
 }
