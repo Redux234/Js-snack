@@ -1,4 +1,4 @@
-
+/*
 let numeroinserito1 = prompt("Inserire un numero")
 let numeroinserito2 = prompt("Inserire un numero")
 let numeroinserito3 = prompt("Inserire un numero")
@@ -12,15 +12,32 @@ let numero3 = parseInt(numeroinserito3)
 let numero4 = parseInt(numeroinserito4)
 let numero5 = parseInt(numeroinserito5)
 let numero6= parseInt(numeroinserito6)
+*/
 
-let arraynumeri = [numero1, numero2, numero3, numero4, numero5, numero6]
 
-for(let i=0; i<arraynumeri.length; i++){
 
-    let numeridacomparare = arraynumeri[i]
-if(numeridacomparare%2==0){
+let arraynumeri = [];
 
-}else{
-    console.log("dispari " + numeridacomparare)
+for(let i=0; i<=6; i++){
+    let numeroinserito = prompt("inserire un numero");
+    let numeroarray = parseInt(numeroinserito);
+    
+    if(numeroarray%2==0){
+
+    }else{
+        arraynumeri.push(numeroarray);
+
+    }
+    
+   
 }
-}   
+
+for(let i = 0; i<arraynumeri.length; i++){
+    console.log(arraynumeri[i])
+
+   
+}
+
+
+
+
